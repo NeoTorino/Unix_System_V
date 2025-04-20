@@ -18,7 +18,10 @@ It has been divided in files of 50M. Total size is 200M
 
 ```
 $ qemu-img create -f raw sysv.img 200M
+```
 
+Boot from floppy disk
+```
 qemu-system-i386 -boot a -drive file=./sysv.img,format=raw,if=ide -drive file=../ATT_UNIX_System_V_Release_4_Version_2.1-3/Base_01_2.1a.img,format=raw,if=floppy
 ```
 
