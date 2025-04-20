@@ -3,6 +3,12 @@ AT&amp;T Unix System V Release 4 Version 2.1
 
 ---------------------------------------
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+|   |   |
 | ------------- | ------------- |
 | Version | Release 4 Version 2.1 |
 | Language | English |
@@ -54,11 +60,12 @@ $ qemu-system-i386 -hda sysv.img  # or "$ qemu-system-i386 -hda sysv.img -accel 
 tar -xvzf ATT_UNIX_System_V_Release_4_Version_2.1-3.tar.gz
 ```
 
-Hash of ATT_UNIX_System_V_Release_4_Version_2.1-3.tar.gz
-```
-sha256: 10a68bac3180ac09d99088688efb691076dc00f1e72b6546b2456c829ae5e3c5
-sha512: 768ebf709b1c5eab552fa517d731c38226ae562885e7ce138b9982827285e0eed2842b16b87fc171a20de208f35c159499d0a6a71f8173a7b912709c75bcb57e
-```
+sha256 ATT_UNIX_System_V_Release_4_Version_2.1-3.tar.gz
+`10a68bac3180ac09d99088688efb691076dc00f1e72b6546b2456c829ae5e3c5`
+
+sha512 ATT_UNIX_System_V_Release_4_Version_2.1-3.tar.gz
+768ebf709b1c5eab552fa517d731c38226ae562885e7ce138b9982827285e0eed2842b16b87fc171a20de208f35c159499d0a6a71f8173a7b912709c75bcb57e`
+
 
 To concatenate the files:
 ```
