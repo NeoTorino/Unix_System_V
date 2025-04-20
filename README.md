@@ -1,6 +1,14 @@
 # Unix_System_V
 AT&amp;T Unix System V Release 4 Version 2.1
 
+---------------------------------------
+
+| ------------- | ------------- |
+| Version | Release 4 Version 2.1 |
+| Language | English |
+| Processor architecture | x86-32 |
+| File type | 3½ Floppy |
+| File size | 5.84MB |
 
 # Installation (using qemu)
 
