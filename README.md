@@ -1,6 +1,4 @@
-# Unix System V
-###AT&amp;T Unix System V Release 4 Version 2.1
-
+# AT&amp;T Unix System V
 
 |   |   |
 | ------------- | ------------- |
