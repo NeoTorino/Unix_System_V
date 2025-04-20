@@ -28,7 +28,7 @@ After being asked to reboot the first time after floppy Base02, close the window
 $ qemu-system-i386 -boot c -drive file=./sysv.img,format=raw,if=ide -drive file=./Base_03.img,format=raw,if=floppy
 ```
 
-And press
+And press:
 ```
 F
 ```
@@ -50,6 +50,8 @@ To concatenate the files:
 ```
 $ cat sysv.img_part* > sysv.img
 ```
+
+Default password for root/user/services is: changeme
 
 The hard drive has been split with the following command (on FreeBSD):
 ```
