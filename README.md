@@ -70,7 +70,7 @@ To concatenate the files:
 $ cat sysv.img_part* > sysv.img
 ```
 
-Default password for root/user/services is: changeme
+Default password for root/user/services is: `changeme`
 
 The hard drive has been split with the following command (on FreeBSD):
 ```
